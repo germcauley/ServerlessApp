@@ -16,8 +16,7 @@ def hello():
 def page():
     return render_template('page.html')
 
-# @app.route("/replies/<variable>")
-# def replies(variable):
 
-#     return render_template('replies.html',post_id=variable)
-
+@app.route("/replies/")
+def replies():
+    return render_template('replies.html')

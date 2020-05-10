@@ -6,7 +6,7 @@
   <body>
 
     <div id="content">
-        <input id ="username" type="text" value="Please enter username here">
+        <input id ="username" type="text" value="Anonymous">
       Voice:
 
       <select id="voiceSelected">
@@ -14,8 +14,8 @@
         <option value="Matthew">Matthew [English]</option>
       </select>
 
-      <input type="submit" value="Say it!" id="sayButton" class="buttons">
-
+      <input type="submit" value="Post!" id="sayButton" class="buttons">
+  
       <span id="postIDreturned"></span>
     </br></br>
 
@@ -29,9 +29,9 @@
 
     <div class="container">
         <div class="row">
-          <div class="col-sm-3">User</div>
-          <div class="col-sm-6">Text</div>
-          <div class="col-sm-3">Player</div>
+          <div class="col-sm-3" style="font-weight: bold;">User</div>
+          <div class="col-sm-6" style="font-weight: bold;">Text</div>
+          <div class="col-sm-3" style="font-weight: bold;">Audio</div>
        </div>
   </div>
 
@@ -39,11 +39,11 @@
       <!-- add content from ajax requests here -->
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-sm-3">User</div>
       <div class="col-sm-6">Text</div>
       <div class="col-sm-3">Player</div>
-    </div>
+    </div> -->
 
 
       <table id="posts">

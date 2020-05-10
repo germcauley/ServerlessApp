@@ -51,6 +51,15 @@ textarea {
 	margin: 0 auto;
 }
 
+#mycontent{
+	color: crimson;
+	background-color: bisque;
+}
+
+#idbutt{
+	font-size:40px;
+}
+
 #posts th {
 	background-color: #FF9900;
 	color: white;
