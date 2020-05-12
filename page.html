@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div id="content">
+        <input id ="username" type="text" value="Anonymous">
+      Voice:
+
+      <select id="voiceSelected">
+        <option value="Joanna">Joanna [English]</option>
+        <option value="Matthew">Matthew [English]</option>
+      </select>
+
+      <input type="submit" value="Post!" id="sayButton" class="buttons">
+  
+      <span id="postIDreturned"></span>
+    </br></br>
+
+    <textarea id ="postText"></textarea>
+    <span id="charCounter">Characters: 0</span>
+
+    </br></br></br></br>
+      Search for post by ID which you want to retrieve: <input type="text" id="postId"> <input type="submit" class="buttons" value="Search" id="searchButton">
+      <br/>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-3" style="font-weight: bold;">User</div>
+          <div class="col-sm-6" style="font-weight: bold;">Text</div>
+          <div class="col-sm-3" style="font-weight: bold;">Audio</div>
+       </div>
+  </div>
+
+
+  <div id="mycontainer">
+    <div id="mycontent"class="container-fluid">
+      <!-- add content from ajax requests here -->
+      
+    </div>
+
+    <div id="myreplies"class="container-fluid">
+      <!-- add content from ajax requests here -->
+      
+    </div>
+  </div>
+    
+
+    
+
+      <!-- <table id="posts">
+        <colgroup>
+          <col style="width:10%">
+          <col style="width:10%">
+          <col style="width:7%">
+          <col style="width:45%">
+          <col style="width:8%">
+          <col style="width:30%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Post ID</th>
+            <th>User</th>
+            <th>Voice</th>
+            <th>Post</th>
+            <th>Status</th>
+            <th>Player</th>
+          </tr>
+        </tbody>
+      </table> -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  
+  </body>
+</html>
