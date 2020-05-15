@@ -1,4 +1,45 @@
-.buttons {
+
+body{
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+
+select{
+	margin-bottom: 5%;
+}
+.UserContent{
+	background-color: rgb(72, 189, 101);
+	font-family: 'Balsamiq Sans', cursive;
+}
+a{
+	margin-top: 10%;
+}
+img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+textarea{
+	width: 95%;
+	height: 200px;
+}
+p{}
+
+#reply{
+
+	font-size: large;
+	text-align:center;
+	
+	
+}
+
+#REPLYBTN{
+	/* height: 100%; */
+}
+
+
+
+/* .buttons {
 	border : solid 0px #e6b215;
 	border-radius : 8px;
 	moz-border-radius : 8px;
@@ -8,6 +49,8 @@
 	background-color : #FF9900;
 	cursor:pointer;
 }
+
+
 
 .buttons:hover {
 	background-color:#ffc477;
@@ -72,4 +115,4 @@ textarea {
 	border-color: #666666;
 	background-color: #ffffff;
 	border-bottom: 1px solid #ddd;
-}
+} */
